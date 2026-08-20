@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.section{
+    width: 100%;
+    height: 5000px;
+}
+.car {
+   width: 100%;
+   height: 90vh;
+   margin: auto;
+   margin-top: 30px;
+   background-image: url(https://bmw.scene7.com/is/image/BMW/G70_RYI:3to4?fmt=webp&wid=767&fit=wrap%2C+1);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   filter: brightness(0.8);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.text{
+     color: white;
+     font-size: 30px;
+     margin-left: 120px;
+}
+
+.car button{
+    background-color: #1C69D4;
+    padding: 20px;
+    size: 50px;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+}
+.part-1 h2{
+    font-size: 50px;
+    font-weight: normal;
+    margin-top: 50px;
+    text-align: center;
+}
+.div-3{
+    display: flex;
+    justify-content: space-around;
+}
+.div-3 figure img{
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 100px;
+}
+.div-3 h3{
+    font-size: 35px;
+    font-weight: normal;
+    padding: 20px;
+}
+.div-3 button{
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    margin-left: 35px;
+}
+.car2{
+   width: 100%;
+   height: 70vh;
+   margin: auto;
+   margin-top: 30px;
+   background-image: url(https://bmw.scene7.com/is/image/BMW/banner-x6-m60i:3to1?fmt=webp&wid=1279&fit=wrap%2C+1);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   filter: brightness(0.8);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;   
+}
+.text2{
+     color: white;
+     font-size: 30px;
+     margin-top: 50px;
+     margin-left: 120px;
+     font-weight: normal;
+}
+.car2 button{
+    background-color: #1C69D4;
+    padding: 20px;
+    size: 50px;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+}
+
+.car3{
+   width: 100%;
+   height: 70vh;
+   margin: auto;
+   margin-top: 30px;
+   background-image: url(https://bmw.scene7.com/is/image/BMW/index-banner-v4:3to1?fmt=webp&wid=1279&fit=wrap%2C+1);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   filter: brightness(0.8);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.text3{
+     color: white;
+     font-size: 30px;
+     margin-left: 120px;
+}
+
+.car3 button{
+    background-color: #1C69D4;
+    padding: 20px;
+    size: 50px;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+}
+
+.car4{
+   width: 100%;
+   height: 70vh;
+   margin: auto;
+   margin-top: 30px;
+   background-image: url(https://bmw.scene7.com/is/image/BMW/GKL_Web_Banner_3000_3000_new:3to1?fmt=webp&wid=1279&fit=wrap%2C+1);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   filter: brightness(0.8);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.text4{
+     color: white;
+     font-size: 30px;
+     margin-left: 120px;
+}
+
+.car4 button{
+    background-color: #1C69D4;
+    padding: 20px;
+    size: 50px;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+}
+.car5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+.left{
+    width: 50%;
+}
+.right{
+    margin-top: 200px;
+    width: 40%;
+}
+.right h2{
+    font-size: 50px;
+    font-weight: normal;
+}
+.right p{
+    font-size: 28px;
+    margin-top: 30px;
+}
+.car6{
+    width: 100%;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-bottom: 50px
+}
+.car7{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.div h2{
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.div{
+    font-size: 25px;
+}
+.car8{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.div1 h2{
+    font-size: 40px;
+    font-weight: normal;
+}
+.div1{
+    font-size: 25px;
+    margin-top: -90px;
+    margin-right: 30px;
+}
+.div2 h2{
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.car9{
+    width: 100%;
+    margin-top: 50px;
+    gap: 40px;
+    display: flex;
+    margin-left: 150px;
+    font-size: 20px;
+}

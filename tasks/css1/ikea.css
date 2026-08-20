@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   font-family: sans-serif;
+}
+h2 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.main {
+    width: 1255px;
+    height: 317px;
+    display: flex;
+    gap: 2%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img1 {
+    width: 90%;
+    height: 400px;
+}
+.img2 {
+    width: 90%;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 275px;
+}

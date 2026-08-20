@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+#aboutsection{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #F2F2F6;
+    
+}
+.midsection {
+    width: 1320px;
+     display: flex;
+    gap: 4%;
+     margin: auto;
+}
+.figure{
+width: 48%;
+}
+.figure img{
+    width: 100%;
+    border: 1px solid saddlebrown;
+}
+.article {
+    width: 48%;
+    margin-top: 100px;
+}
+.article h1{
+    margin-bottom: 20px;
+    color: blue;
+}
+.article p{
+    margin-bottom: 20px;
+}
+.article button{
+    padding: 10px;
+    margin-top: 10px;
+}

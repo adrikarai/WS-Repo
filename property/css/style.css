@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.midsection{
+    width: 1329px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    background-color: rgb(200, 225, 233);
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    
+}
+.miditem{
+    border: 1px solid black;
+    padding: 50px 20px;
+    width: 23%;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 10px 5px 10px 5px gray;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.child1{
+    max-width: 1320px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.child2{
+    display: flex;
+    justify-content: center;
+}
+.child2 button:nth-child(1){
+    padding: 20px 25px;
+    color: green;
+    border: 1px green;
+    border-radius: 8px;
+    text-transform: capitalize;
+    transition-duration: 0.5s ease;
+    font-size: 15px;
+}
+.child2 button:nth-child(1):hover{
+    cursor: pointer;
+    background-color: green;
+    color: aliceblue;
+}
+.child2 button:nth-child(2):hover{
+    cursor: pointer;
+    background-color: blue;
+    color: aliceblue;
+}
+.child2 button:nth-child(2){
+    padding: 20px 25px;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+

@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+ .products {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .products h3 {
+            color: blue;
+            margin-bottom: 5px;
+        }
+
+        .products h4{
+            font-weight: normal;
+            margin-bottom: 30px;
+        }
+ .product-card {
+     display: flex;
+     gap: 10px;
+     margin: auto;
+     width: 1170px;
+     background-color: white;
+     padding: 20px;
+     border: 2px solid #ddd;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     text-align: center;
+    }
+    .pitem {
+        border: 1px solid black;
+        padding: 10px;
+        width: 23%;
+    }
+    .pitem img {
+        width: 100%;
+        height: 150px;
+    }
+footer{
+    background-color: black;
+    text-align: center;
+    color: wheat;
+}
+button{
+    padding: 10px;
+    background-color: aqua;
+}

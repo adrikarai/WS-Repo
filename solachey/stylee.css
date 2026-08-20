@@ -1,0 +1,113 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     font-family: sans-serif;
+     box-sizing: border-box;
+}
+header {
+     text-align: center;
+     font-weight: bold;
+     color: green;
+     background-color: #FFFFFF;
+     padding: 15px;
+     margin-top: 10px;
+
+}
+.section {
+     width: 100%;
+     padding: 10px;
+     background-color: #FFFFFF;
+}
+.section h1{
+     text-align: center;
+     color: blue;
+     margin-bottom: 15px;
+}
+.midsection {
+      width: 1170px;
+      display: flex;
+      gap: 20px;
+      border: 1px solid black;
+      margin-top: 15px;
+      margin: auto;
+}
+.pitm1 {
+      width: 278px;
+      border: 1px solid black;
+      padding: 10px;
+}
+      .pitm1 img{
+           width: 100%;
+      }
+      .pitm1 h3{
+           margin-top: 10px;
+           margin-bottom: 10px;
+           color: rgb(0, 68, 255);
+      }
+      .pitm1 p{
+           font-size: 20px;
+      }
+      .pitm1 button{
+           padding: 10px;
+           margin: 20px;
+      }
+.pitm2 {
+      width: 278px;
+      border: 1px solid black;
+      padding: 10px;
+}
+      .pitm2 img{
+           width: 100%;
+      }
+      .pitm2 h3{
+           margin-top: 10px;
+           margin-bottom: 10px;
+           color: rgb(0, 68, 255);
+      }
+      .pitm2 p{
+           font-size: 20px;
+      }
+      .pitm2 button{
+           padding: 10px;
+           margin: 20px;
+      }
+.pitm3 {
+      width: 278px;
+      border: 1px solid black;
+      padding: 10px;
+}
+      .pitm3 img{
+           width: 100%;
+      }
+      .pitm3 h3{
+           margin-top: 10px;
+           margin-bottom: 10px;
+           color: rgb(0, 68, 255);
+      }
+      .pitm3 p{
+           font-size: 20px;
+      }
+      .pitm3 button{
+           padding: 10px;
+           margin: 20px;
+      }
+.pitm4 {
+      width: 278px;
+      border: 1px solid black;
+      padding: 10px;
+}
+      .pitm4 img{
+            width: 100%;
+      }
+      .pitm4 h3{
+           margin-top: 10px;
+           margin-bottom: 10px;
+           color: rgb(0, 68, 255);
+      }
+      .pitm4 p{
+           font-size: 20px;
+      }
+      .pitm4 button{
+           padding: 10px;
+           margin: 20px;
+      }

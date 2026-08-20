@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 20px;
+}
+.midsection{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    background-color: #F6F4F0;
+}
+.midsection p{
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.img1{
+    width: 100%;
+   height: 90vh;
+   margin: auto;
+   margin-top: 30px;
+    background-image: url(https://www.belmond.com/assets/photos/ele/1280x566/ele-cam01_1280x566.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   filter: brightness(1);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.text h1{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.text2 h1{
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 100px;
+}
+.text2 p{
+    text-align: justify;
+    text-align: center;
+    margin-top: 20px;
+}
+.div h2{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.img2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.europe-img{
+    text-align: center;
+}
+.europe-img h3{
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.div1 h2{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.image{
+    width: 100%;
+    height: 500px;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.para{
+    display: flex;
+    text-align: center;
+    gap: 12%;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.para h3{
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.div3 h2{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.image1{
+    width: 100%;
+    height: 500px;
+}
+.div4{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.para2{
+    display: flex;
+    text-align: center;
+    gap: 12%;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.para2 h3{
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+/* .last-img{
+     width: 100%;
+   height: 100vh;
+   margin: auto;
+   margin-top: 30px;
+    background-image: url(https://www.belmond.com/assets/search/search-sticker-bel01.png);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   filter: brightness(1);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;   
+} */

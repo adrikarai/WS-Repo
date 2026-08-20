@@ -1,0 +1,20 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     font-family: sans-serif;
+} 
+.main{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    gap: 1%;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+.img4{
+    margin-left: 885px;
+    margin-top: -460px;
+
+}

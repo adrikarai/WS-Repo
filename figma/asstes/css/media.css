@@ -1,0 +1,572 @@
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* ================= HEADER ================= */
+
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 10px 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        box-shadow: 0px 0px 10px #002F5814;
+        border-radius: 8px;
+    }
+
+    .logo1 {
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .logo1 img {
+        width: 130px;
+        height: auto;
+    }
+
+    .btn {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        background-color: white;
+    }
+
+    .btn button:nth-child(1) {
+        width: 55%;
+        height: 40px;
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+
+    .btn button:nth-child(2) {
+        width: 35%;
+        height: 40px;
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+
+
+    /* ================= PAGE 1 ================= */
+
+    .mid-section {
+        width: 100%;
+        margin: 30px auto 0;
+        padding: 0 15px;
+    }
+
+    .mid-section .row {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+    .left h1 {
+        font-size: 30px;
+        line-height: 1.35;
+        text-align: center;
+    }
+
+    .left p {
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .left ul {
+        padding: 0;
+    }
+
+    .left li {
+        font-size: 14px;
+        line-height: 28px;
+        text-align: left;
+    }
+
+    .left li img {
+        width: 25px;
+        height: 25px;
+        padding: 0 5px;
+    }
+
+    .buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .buttons button {
+        width: 50%;
+        height: 70px;
+        margin-top: 5px;
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+
+
+    /* FORM */
+
+    .form-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px 15px;
+    }
+
+    .form-grp input {
+        width: 100%;
+    }
+
+    .right button {
+        width: 100%;
+    }
+
+
+    /* ================= COUNTER ================= */
+
+    .div-section {
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        padding: 20px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 5px;
+        box-shadow: none;
+    }
+
+    .div-sec {
+        width: 100%;
+        height: 80px;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid #FFFFFF;
+        box-shadow: 0px 0px 10px #002F5814;
+        border-radius: 8px;
+    }
+
+    .div-sec h3 {
+        font-size: 21px;
+    }
+
+    .div-sec p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+
+    /* ================= PAGE 2 ================= */
+
+    .highlight-sec {
+        width: 100%;
+        min-height: auto;
+        padding: 30px 15px;
+        margin-top: 50px;
+    }
+
+    .highlight-content {
+        width: 100%;
+        height: auto;
+        margin: 20px auto 0;
+    }
+
+    .div h2 {
+        font-size: 27px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .div p {
+        font-size: 14px;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    .div2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 25px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        min-height: 118px;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .img {
+        width: 65px;
+        height: 65px;
+        flex-shrink: 0;
+    }
+
+    .card-text {
+        width: calc(100% - 80px);
+        height: auto;
+    }
+
+    .card-text h4 {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .card-text p {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .butn {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .butn button {
+        font-size: 16px;
+        padding: 13px 35px;
+    }
+
+
+    /* ================= PAGE 3 ================= */
+
+    .option-sec {
+        width: 100%;
+        min-height: auto;
+        margin-top: 50px;
+        padding: 0 15px;
+    }
+
+    .heading h3 {
+        font-size: 28px;
+        line-height: 37px;
+        text-align: center;
+    }
+
+    .heading p {
+        font-size: 14px;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    .options {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .opt1,
+    .opt2,
+    .opt3,
+    .opt4 {
+        width: 100%;
+        height: auto;
+        min-height: 250px;
+    }
+
+    .logo {
+        width: 56px;
+        height: 56px;
+    }
+
+    .text h4 {
+        font-size: 17px;
+    }
+
+    .text p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+
+    /* ================= PAGE 4 ================= */
+
+    .main-div {
+        width: 100%;
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main-row {
+        width: 100%;
+    }
+
+    .certified-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .certified-content h2 {
+        margin-top: 50px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .certified-content p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .card-certified {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .item {
+        width: 100%;
+        height: auto;
+        min-height: 120px;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .certf-img {
+        width: 60px;
+        height: 60px;
+        flex-shrink: 0;
+    }
+
+    .card-content {
+        width: calc(100% - 70px);
+    }
+
+    .card-content h4 {
+        width: 100%;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .card-content p {
+        width: 100%;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .book-btn {
+        text-align: center;
+    }
+
+    .book-btn button {
+        font-size: 16px;
+        padding: 13px 35px;
+    }
+
+    .img-certified {
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .certificate-img {
+        width: 100%;
+    }
+
+    .dots-img {
+        width: 80px;
+        left: 0;
+        top: 10px;
+    }
+
+    .circle-img {
+        width: 120px;
+        height: 120px;
+        right: 0;
+        bottom: -10px;
+    }
+
+
+    /* ================= PAGE 5 ================= */
+
+    .why-learn {
+        width: 100%;
+        min-height: auto;
+        padding-bottom: 40px;
+    }
+
+    .why-container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .why-head {
+        width: 100%;
+        height: auto;
+        padding: 50px 5px 25px;
+    }
+
+    .why-head h2 {
+        font-size: 27px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .why-head p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .why-row {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .why-box {
+        width: 100%;
+        max-width: 400px;
+        margin-top: 0;
+    }
+
+    .box-text h4 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .box-text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .why-btn {
+        text-align: center;
+    }
+
+    .why-btn button {
+        font-size: 16px;
+        padding: 13px 35px;
+        margin-top: 20px;
+    }
+
+
+    /* ================= PAGE 6 ================= */
+
+    .std-heading {
+        width: 100%;
+        padding: 0 15px;
+        margin-top: 40px;
+    }
+
+    .std-heading h2 {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .std-heading p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .cont-std {
+        width: 100%;
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .std-left {
+        width: 100%;
+        min-height: auto;
+        padding: 20px;
+        margin-bottom: 0;
+    }
+
+    .img-left {
+        text-align: center;
+    }
+
+    .text-left {
+        width: auto;
+        height: auto;
+        padding: 15px 10px;
+    }
+
+    .text-left h4 {
+        font-size: 17px;
+    }
+
+    .text-left p {
+        font-size: 13px;
+    }
+
+    .para p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    /* ================= COMPANIES ================= */
+
+    .top-div {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .top-div h2 {
+        font-size: 23px;
+        line-height: 30px;
+        padding: 25px 5px;
+    }
+
+    .top-div img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    footer {
+        width: 100%;
+        padding: 25px 15px;
+    }
+
+    footer img {
+        max-width: 150px;
+        height: auto;
+    }
+
+    footer p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+}
